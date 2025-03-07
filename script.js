@@ -70,6 +70,10 @@ function displayData(userData) {
 
   // Urutan field sesuai dengan yang ada di Google Sheet
   const fieldsOrder = [
+    Note: 
+    UD : Uang Digital
+  G : Generasi
+  
     "Kode ID",
     "Tgl Bergabung",
     "Nama",
@@ -97,14 +101,14 @@ function displayData(userData) {
     "Komisi Generasi 9",
     "Komisi Generasi 10",
     "Jumlah Seluruh Komisi",
-    "Bonus Spesial 1",
-    "-> Bonus Spesial 2",
-    "Bonus Spesial 3",
-    "Bonus Spesial 4",
-    "Bonus Spesial 5",
+    "•Bonus Spesial 1",
+    "• Bonus Spesial 2",
+    "•Bonus Spesial 3",
+    "• Bonus Spesial 4",
+    "•Bonus Spesial 5",
     "Jumlah Komisi+Bonus",
-    "80% Komisi+Bonus Rp",
-    "20% Komisi+Bonus UD (Uang Digital)",
+    "Komisi+Bonus Rp 80%",
+    "Komisi+Bonus UD 20%",
     "Riwayat Withdraw Rp",
     "Jumlah Withdraw Rp",
     "Saldo Komisi+Bonus Rp",
@@ -135,8 +139,8 @@ function displayData(userData) {
     "Bonus Spesial 4",
     "Bonus Spesial 5",
     "Jumlah Komisi+Bonus",
-    "80% Komisi+Bonus Rp",
-    "20% Komisi+Bonus UD (Uang Digital)",
+    "Komisi+Bonus Rp 80%",
+    "Komisi+Bonus UD 20%",
     "Jumlah Withdraw Rp",
     "Saldo Komisi+Bonus Rp",
     "Jumlah Withdraw UD",
