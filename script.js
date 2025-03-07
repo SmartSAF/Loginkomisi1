@@ -62,7 +62,7 @@ function displayData(userData) {
   dataContainer.style.display = "block";
 
   // Set judul halaman WD
-  document.getElementById("dataTitle").innerText = "Komisi dan Bonus";
+  document.getElementById("dataTitle").innerText = "Komisi dan Bonus"; <br> <p>Note: UD : Uang digital/<p>";
 
   // Buat tabel untuk menampilkan data
   const table = document.createElement("table");
@@ -70,9 +70,6 @@ function displayData(userData) {
 
   // Urutan field sesuai dengan yang ada di Google Sheet
   const fieldsOrder = [
-    "Note: "
-    "UD : Uang Digital"
-  "G : Generasi"
     "Kode ID",
     "Tgl Bergabung",
     "Nama",
