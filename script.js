@@ -70,10 +70,9 @@ function displayData(userData) {
 
   // Urutan field sesuai dengan yang ada di Google Sheet
   const fieldsOrder = [
-    Note: 
-    UD : Uang Digital
-  G : Generasi
-  
+    "Note: "
+    "UD : Uang Digital"
+  "G : Generasi"
     "Kode ID",
     "Tgl Bergabung",
     "Nama",
